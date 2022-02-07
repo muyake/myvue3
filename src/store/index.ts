@@ -11,6 +11,7 @@ export default createStore({
   },
   mutations: {
     increment(state: typeof defaultState) {
+      // eslint-disable-next-line no-param-reassign
       state.count++
     }
   },
