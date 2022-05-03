@@ -2,7 +2,6 @@
 <template></template>
 <script lang="ts">
 import { defineComponent } from 'vue'
-// @ts-ignore
 import axios from '../utils/axios'
 
 export default defineComponent({
